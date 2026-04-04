@@ -3,6 +3,23 @@
 // Desafio de Xadrez - MateCheck
 
 int main() {
+
+    printf("movimentando cavalo em L...\n");
+
+    // CAVALO USANDO FOR ANINHADO COM WHILE
+    // ====================================
+    for (int i = 1; i <= 2; i++) {
+    
+    int passo = 1;
+
+    while (passo <= 1) {
+    printf("baixo\n");        // IMPRIME A DIREÇÃO PARA BAIXO
+         passo++;
+    }
+    }
+    printf("esquerda\n");     // IMPRIME A DIREÇÃO PARA ESQUERDA
+
+
     // TORRE USANDO FOR
     // ================
     // TORRE VAI ANDAR 5 CASAS PARA A DIREITA
